@@ -20,6 +20,8 @@ export default function Searchbar({ q }) {
     const onClickSearch = () => {
         if (search !== '') {
             nav(`/search?q=${search}`);
+        } else {
+            nav('/');
         }
     };
     return (

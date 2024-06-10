@@ -12,6 +12,7 @@ export default function Layout({ children }) {
         <div>
             <header onClick={onClickHeader} className={style.header}>
                 <div>
+                    {' '}
                     <img
                         src="https://i.namu.wiki/i/1XTQG1_LE6wVDFsDJ7ncwpdIxFVJI4FUOX_LnPFY2bSOnTxI9Tn3iLQbYUgAn3w4K23sSQFg_BfkB6Jpkuo60g.webp"
                         alt="GBSW"

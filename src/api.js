@@ -11,7 +11,10 @@ export async function fetchCountries() {
 
 export async function fetchSearchResults(q) {
     try {
-        const response = await axios.get(`https://naras-api.vercel.app/search?q=${q}`);
+        const response = await axios.get(`
+  https://naras-api.vercel.app/search?q=${q}
+  `);
+
         return response.data;
     } catch (e) {
         return [];
